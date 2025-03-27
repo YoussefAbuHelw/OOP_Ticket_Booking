@@ -8,6 +8,7 @@ import java.util.Random;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
 
+
     public static void PrintInfo() {
         JOptionPane.showMessageDialog(null, " Football World Cup Ticket Reservation :" +
                 "\n" + "Cities on which World Cup is held: (C1 ,C2 ,C3 ,C4 ,C5 ,C6 ,C7 ,C8 )" + "\n" +
@@ -18,7 +19,7 @@ public class Main {
                 "  G7:  T17 T27 T37 T47" + "\n" + "  G8: T18 T28 T38 T48 :");
     }
 
-    public static ArrayList<Team> generateTeams(int index) {
+    public static ArrayList<Team> generateTeams(int index) { // This Method For Generate Teams
 
         ArrayList<Team> t = new ArrayList<>(4);
         for (int i = 0; i < 4; i++) {

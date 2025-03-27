@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="oppexe">
+    <output-path>$PROJECT_DIR$/out/artifacts/oppexe</output-path>
+    <root id="archive" name="RefectorProjectOOP.jar">
+      <element id="module-output" name="RefectorProjectOOP" />
+    </root>
+  </artifact>
+</component>
